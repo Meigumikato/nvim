@@ -3,7 +3,7 @@
  nvim
  # install
 
- need install python nodejs npm pip
+ need install python nodejs npm pip ccls clang llvm
  
  pip install neovim
  
