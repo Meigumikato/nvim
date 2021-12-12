@@ -34,6 +34,9 @@ set foldmethod=manual
 " scrol
 filetype on
 filetype plugin on
+syntax enable
+filetype plugin indent on
+
 
 xnoremap +y "+y 
 noremap <space>no :nohlsearch<CR>
@@ -132,6 +135,9 @@ Plug 'tpope/vim-sensible'
 Plug 'mg979/vim-xtabline'
 Plug 'brooth/far.vim'
 Plug 'Yggdroot/indentLine'
+" rust
+Plug 'rust-lang/rust.vim'
+
 
 call plug#end()
 
@@ -166,6 +172,7 @@ let g:coc_global_extensions = [
 	\'coc-snippets',
     \'coc-explorer',
     \'coc-translator',
+    \'coc-rust-analyzer',
 	\'coc-vimlsp']
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
