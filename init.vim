@@ -93,8 +93,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "directory tree icon"
 Plug 'ryanoasis/vim-devicons'
-" syntax 
-Plug 'sheerun/vim-polyglot'
 " go plugin
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 "vim surround "

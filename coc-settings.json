@@ -1,6 +1,4 @@
 {
-  "prisma.prismaFmtBinPath":"",
-	"prismaLanguageServer.prismaFmtBinPath":"",
 	"coc.preferences.semanticTokensHighlights": false,
 	"coc.preferences.enableFloatHighlight": true,
 	"coc.preferences.snippetStatusText": "Ⓢ ",
@@ -8,7 +6,6 @@
 	"coc.preferences.messageLevel": "error",
 	"coc.source.around.firstMatch": false,
 	"coc.source.buffer.firstMatch": false,
-	"coc.source.syntax.firstMatch": false,
 	"suggest.detailMaxLength": 60,
 	"suggest.noselect": true,
 	"suggest.enablePreselect": false,
@@ -48,7 +45,6 @@
 		"value": "\uf89f",
 		"variable": "\ue71b"
 	},
-	"diagnostic.signOffset": 1,
 	"diagnostic.errorSign": "\uf467",
 	"diagnostic.warningSign": "\uf071",
 	"diagnostic.infoSign": "\uf129",
@@ -58,8 +54,21 @@
 	"diagnostic.checkCurrentLine": true,
 	"diagnostic.virtualTextPrefix": " ❯❯❯ ",
 	"diagnostic.virtualText": false,
+	"explorer.position": "left",
+	"explorer.buffer.showHiddenBuffers": true,
+	"explorer.icon.enableNerdfont": true,
+	"explorer.icon.source": "vim-devicons",
+	"explorer.git.enable": true,
+	"explorer.git.icon.status.mixed": "*",
+	"explorer.file.column.indent.indentLine": true,
+	"explorer.openAction.for.directory": "tab",
+	"explorer.openAction.relativePath": true,
+	"explorer.openAction.strategy": "select",
 	"codeLens.enable": true,
-  "languageserver": {
+	"translator.engines": [
+		"youdao"
+	],
+    "languageserver": {
 		"ccls": {
 				"command": "ccls",
 				"filetypes": ["c", "cpp", "cc", "c++"],
@@ -73,7 +82,7 @@
 					},
 					"compilationDatabaseDirectory": "build",
 					"clang": { 
-						"extraArgs": [ "-std=c++20" ] 
+						"extraArgs": [ "-std=c++14" ] 
 					},
 					"index": {
 						"thread": 6
