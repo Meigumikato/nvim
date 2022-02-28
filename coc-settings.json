@@ -82,21 +82,21 @@
 					},
 					"compilationDatabaseDirectory": "build",
 					"clang": { 
-						"extraArgs": [ "-std=c++14" ] 
+						"extraArgs": [ "-std=c++17" ] 
 					},
 					"index": {
 						"thread": 6
-					}
+					},
+                    "highlight": {
+                        "lsRanges": true
+                    }
 					
 				}
 		}
-
     //"coc-clangd": {
         //"command": "clangd",
         //"rootPatterns": ["compile_flags.txt", "compile_commands.json"],
         //"filetypes": ["c", "cc", "cpp", "c++"]
     //}
-	}, 
-
-	"clangd.serverCompletionRanking": true
+	} 
 }

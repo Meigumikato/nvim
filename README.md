@@ -1,13 +1,20 @@
 # Myvim
-=======
- nvim
- # install
+## 1.dependency install
 
- need install python nodejs npm pip ccls clang llvm
- 
+* python3
+* nodejs
+* npm
+* pip
+* ccls 
+* clang 
+* llvm 
+* figlet 
+* ripgrep 
+* yarn 
+* xclip
+
  pip install neovim
  
- # other
-
- ccls used to c and cpp complication 
+## 2.other matter
+* ccls used to c and cpp complication 
  
